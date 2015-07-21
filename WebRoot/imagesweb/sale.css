@@ -1,0 +1,409 @@
+body {
+	background-color: #fff;
+}
+
+.main {
+	width: 100%;
+	height: 355px;
+}
+
+.main a {
+	width: 100%;
+	height: 355px;
+	float: left;
+}
+
+.box {
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	height: 1px;
+	position: relative;
+}
+
+.sub_main {
+	width: 1000px;
+	height: 423px;
+	float: left;
+}
+
+.banner {
+	float: left;
+	width: 560px;
+	margin: 80px 50px 20px 0px;
+	_display: inline;
+}
+
+/***********--login--**********/
+.hw_login {
+	width: 100%;
+	float: left;
+}
+
+.login {
+	width: 338px;
+	height: 360px;
+	right: 17px;;
+	background-color: #fff;
+	top: -393px;
+	position: absolute;
+}
+
+.login h2 {
+	float: right;
+	width: 338px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background-color: #000000;
+	font-family: microsoft yahei;
+}
+
+.login ul {
+	padding: 15px 36px;
+	float: left;
+}
+
+.login ul li {
+	float: left;
+	width: 268px;
+	line-height: 36px;
+	color: #333333;
+	font-size: 14px;
+}
+
+.login input.input_user,.login input.input_password {
+	width: 258px;
+	color: #a6a6a6;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #999;
+	font-family: microsoft yahei;
+	font-size: 16px;
+	padding-left: 10px;
+	background-color: #FFF;
+}
+
+.login input.check {
+	margin-top: 11px;
+	_margin-top: 6px;
+	width: 20px;
+	float: left;
+	margin-right: 5px;
+}
+
+.login ul li.denglv span {
+	float: left;
+}
+
+.login ul li a {
+	color: #ff9c4a;
+	padding-left: 10px;
+}
+
+.login ul li a.fpassword {
+	float: right;
+}
+
+.login ul li a:hover {
+	color: #ff9c4a;
+	text-decoration: underline;
+}
+
+.login ul li.denglv {
+	padding-top: 10px;
+}
+
+.login ul li.reg {
+	padding-top: 10px;
+}
+
+.login a.button_sub {
+	float: right;
+	font-size: 16px;
+}
+
+.login input.button_reg {
+	margin-top: 5px;
+}
+
+span.copyright {
+	margin-right: 50px;
+}
+
+.login button.J_Submit {
+	background: url("loginbutton.png") no-repeat scroll 0
+		0 transparent;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 47px;
+	line-height: 47px;
+	font-family: microsoft yahei;
+	font-size: 20px;
+	font-weight: 100;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 270px;
+}
+
+.login button.J_Submit:hover {
+	background: url("loginbutton.png") no-repeat scroll
+		0px -48px transparent;
+}
+
+.hw_main {
+	width: 100%;
+	float: left;
+}
+
+.index_content {
+	width: 1000px;
+	padding: 20px 0px;
+	margin: 0 auto;
+}
+
+.sz_sale {
+	width: 960px;
+	background-color: #f4f4f4;
+	float: left;
+	padding: 15px 20px 20px 20px;
+}
+
+.sz_sale h2 {
+	width: 960px;
+	font-size: 24px;
+	font-family: microsoft yahei;
+	color: #4e4e4e;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.sz_sale h2 em {
+	font-size: 16px;
+}
+
+.sz_sale .choose {
+	width: 960px;
+	float: left;
+}
+
+select.sortSelect {
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+.sz_sale .choose .choose_list {
+	width: 280px;
+	float: left;
+	margin-right: 20px;
+}
+
+.pass-label {
+	float: left;
+	line-height: 23px;
+}
+
+.mod_houses {
+	float: left;
+	border: 1px solid #e3e3e3;
+	margin-top: 20px;
+	width: 980px;
+	padding: 19px 9px 9px 9px;
+}
+
+.mod_houses h2 {
+	width: 990px;
+	float: left;
+}
+
+.mod_houses h2 span.title {
+	width: 990px;
+	font-family: microsoft yahei;
+	font-size: 28px;
+	float: left;
+}
+
+.mod_houses h2 span.title_ad {
+	width: 990px;
+	font-family: microsoft yahei;
+	padding-top: 5px;
+	float: left;
+}
+
+.mod_houses h2 span.title em {
+	color: #ff6600;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.mod_houses .houses {
+	width: 990px;
+	padding-top: 20px;
+	height: 310px;
+	float: left;
+}
+
+.mod_houses .houses .houses_img {
+	width: 570px;
+	margin-right: 10px;
+	position: relative;
+	height: 310px;
+	float: left;
+}
+
+.mod_houses .houses .houses_img b.pi {
+	background-image: url("hw_sale.png");
+	_background-image: url("hw_sale_icon.gif");
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	height: 119px;
+	line-height: 31px;
+	overflow: hidden;
+	padding: 12px 0 0;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	width: 135px;
+}
+
+.mod_houses .houses_info {
+	width: 400px;
+	background-color: #f4f4f4;
+	height: 310px;
+	float: left;
+}
+
+.mod_houses .houses_info .houses_price {
+	width: 360px;
+	float: left;
+	font-family: microsoft yahei;
+	font-size: 16px;
+	color: #ff6600;
+	padding: 0px 20px;
+	margin-top: 20px;
+}
+
+.mod_houses .houses_info .houses_price em {
+	font-family: microsoft yahei;
+	font-size: 14px;
+	color: #333;
+	text-decoration: line-through;
+}
+
+.mod_houses .houses_info .sale_info {
+	width: 360px;
+	float: left;
+	height: 24px;
+	overflow: hidden;
+	font-family: microsoft yahei;
+	font-size: 24px;
+	color: #ff6600;
+	padding: 0px 20px;
+	margin-top: 20px;
+}
+
+.mod_houses .houses_info .houses_where {
+	width: 360px;
+	float: left;
+	font-family: microsoft yahei;
+	font-size: 14px;
+	color: #333;
+	margin: 20px 20px 00px 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #333;
+}
+
+.mod_houses .houses_info .houses_where p {
+	width: 150px;
+	float: left;
+	line-height: 25px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.mod_houses .houses_info .houses_where button.J_Submit {
+	background: url("sale_bg.jpg") no-repeat scroll 0 0
+		transparent;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	height: 48px;
+	line-height: 48px;
+	font-family: microsoft yahei;
+	font-size: 20px;
+	font-weight: 100;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 134px;
+}
+
+.mod_houses .houses_info .tui {
+	width: 360px;
+	float: left;
+	font-family: microsoft yahei;
+	font-size: 14px;
+	color: #333;
+	padding: 0px 20px;
+	margin-top: 10px;
+}
+
+.mod_houses .houses_info .tui p {
+	width: 150px;
+	float: left;
+	line-height: 25px;
+}
+
+.mod_houses .houses_info .tui button.J_Submit {
+	background: url("Y_button_bg.jpg") no-repeat scroll 0
+		0 transparent;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+	font-family: microsoft yahei;
+	font-weight: 100;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 134px;
+}
+
+.mod_houses .houses_info .tui em,.mod_houses .houses_info .houses_time em
+	{
+	font-family: microsoft yahei;
+	font-size: 18px;
+	color: #cc0000;
+}
+
+.mod_houses .houses_info .houses_time {
+	width: 360px;
+	float: left;
+	font-family: microsoft yahei;
+	font-size: 14px;
+	color: #333;
+	padding: 0px 20px;
+	margin-top: 10px;
+	background-color: #dfdfdf;
+	height: 50px;
+	line-height: 50px;
+}

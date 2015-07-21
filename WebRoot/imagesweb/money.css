@@ -1,0 +1,504 @@
+.money {
+    padding-bottom: 60px;
+}
+
+.money h1,
+.money h2,
+.money h3,
+.money h4,
+.money h5,
+.money h6 {
+    margin: .5em 0;
+}
+
+.money em,
+.money strong {
+    font-style: normal;
+}
+
+.money strong {
+    font-weight: bold;
+}
+
+
+.n-j-reg,
+.now-join h3,
+.m-s-reward strong,
+.m-s-credit strong,
+.m-s-p-reg,
+.m-s-pattern dt,
+.m-s-title,
+.yahei {
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica;
+}
+
+
+
+.money-summary {
+    font-size: 14px;
+}
+
+.m-s-title {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+}
+
+.m-s-t-subtitle {
+    padding-left: 1em;
+    color: #ff7f00;
+
+}
+
+.money .m-s-t-subtitle {
+    font-weight: normal;
+}
+
+.m-s-t-icon {
+    overflow: hidden;
+    display: inline-block;
+    margin: 11px .5em 0 0;
+    width: 5px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #ff7f00;
+    vertical-align: top;
+}
+
+
+.icon-thousand-1,
+.icon-thousand-2,
+.icon-absolutely-1,
+.m-s-icon-earn,
+.icon-m-s-help,
+.icon-m-s-service,
+.icon-m-s-cheap,
+.icon-m-s-nationwide,
+.icon-m-s-money,
+.icon-m-s-sms,
+.icon-m-s-team,
+.icon-m-s-brokerage,
+.icon-m-s-info,
+.icon-m-s-user,
+.icon-m-s-reg {
+    display: inline-block;
+    background-image: url(money-icon.gif);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.anchor,
+.anchor:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+
+
+/*----------start: money-banner----------*/
+.money-banner {
+    position: relative;
+    margin-top: 20px;
+    width: 1000px;
+    height: 220px;
+}
+.m-b-zc,
+.m-b-tj,
+.m-b-zyj {
+    display: block;
+    position: absolute;
+    height: 48px;
+    background-image: url(about:blank); /* fix ie */
+}
+.m-b-zc:hover,
+.m-b-tj:hover,
+.m-b-zyj:hover {
+    text-decoration: none;
+}
+.m-b-zc {
+    top: 156px;
+    left: 240px;
+    width: 170px;
+}
+.m-b-tj {
+    top: 166px;
+    left: 420px;
+    width: 180px;
+}
+.m-b-zyj {
+    top: 156px;
+    left: 606px;
+    width: 150px;
+}
+/*----------end: money-banner----------*/
+
+
+
+/*----------start: m-s-pattern----------*/
+.m-s-pattern {
+    overflow: hidden;
+    width: 748px;
+    height: 444px;
+    border: 1px solid #e6e6e6;
+}
+
+.m-s-pattern dt {
+    padding-left: .7em;
+    font-size: 24px;
+    color: #333;
+    background-color: #f1edec;
+}
+
+.m-s-pattern dd {
+    padding: 25px 0 30px 20px;
+}
+
+.m-s-pattern .m-s-p-subtitle {
+    padding-left: .5em;
+    font-size: 18px;
+    color: #666;
+}
+
+.m-s-icon-item {
+    padding-left: 58px;
+    width: 167px;
+    color: #666;
+}
+
+.m-s-i-width {
+    width: 220px;
+}
+
+.icon-m-s-money,
+.icon-m-s-sms,
+.icon-m-s-team,
+.icon-m-s-brokerage,
+.icon-m-s-info,
+.icon-m-s-user,
+.icon-m-s-reg {
+    float: left;
+    margin-left: -58px;
+    width: 48px;
+    height: 48px;
+}
+
+.icon-m-s-reg {
+    background-position: 0 0;
+}
+.icon-m-s-user {
+    background-position: 0 -52px;
+}
+.icon-m-s-info {
+    background-position: 0 -104px;
+}
+.icon-m-s-brokerage {
+    background-position: 0 -156px;
+}
+.icon-m-s-team {
+    background-position: 0 -208px;
+}
+.icon-m-s-sms {
+    background-position: 0 -260px;
+}
+.icon-m-s-money {
+    background-position: 0 -312px;
+}
+
+.m-s-p-reg {
+    display: block;
+    border: 1px solid #ec6600;
+    width: 475px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff7f00;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0 0 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.m-s-p-reg:hover {
+    text-decoration: none;
+    background-color: #eb7601;
+}
+
+.money-side-banner {
+    overflow: hidden;
+    width: 230px;
+    height: 444px;
+}
+/*----------end: m-s-pattern----------*/
+
+
+
+/*----------start: m-s-credit----------*/
+.m-s-credit {
+    color: #666;
+    background-color: #f1edec;
+}
+
+.m-s-credit li {
+    width: 214px;
+    padding: 35px 0 35px 118px;
+}
+
+.m-s-c-mid {
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+
+.m-s-credit strong {
+    display: block;
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+}
+
+.m-s-credit p {
+    width: 14em;
+}
+
+.icon-m-s-service,
+.icon-m-s-cheap,
+.icon-m-s-nationwide {
+    float: left;
+    margin-top: 9px;
+    margin-left: -93px;
+    width: 72px;
+    height: 72px;
+}
+.icon-m-s-nationwide {
+    background-position: 0 -364px;
+}
+.icon-m-s-cheap {
+    background-position: 0 -440px;
+}
+.icon-m-s-service {
+    background-position: 0 -516px;
+}
+/*----------end: m-s-credit----------*/
+
+
+
+/*----------start: m-s-reward----------*/
+.m-s-reward {
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
+
+.m-s-reward li {
+    float: left;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    width: 332px;
+    height: 208px;
+}
+
+.m-s-reward strong {
+    display: block;
+    margin-top: 20px;
+    margin-left: 38px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.icon-thousand-1,
+.icon-thousand-2 {
+    margin-left: 5px;
+    width: 71px;
+    height: 27px;
+    overflow: hidden;
+}
+.icon-thousand-1 {
+    background-position: 0 -634px;
+}
+.icon-thousand-2 {
+    background-position: 0 -667px;
+}
+.icon-absolutely-1 {
+    margin-left: 5px;
+    width: 86px;
+    height: 27px;
+    background-position: 0 -697px;
+}
+
+.m-s-reward p {
+    margin-left: 38px;
+    width: 19em;
+    color: #666;
+}
+
+.get-invite-link,
+.how-to-invite {
+    display: block;
+    margin: .5em 0;
+}
+
+.how-to-invite {
+    color: #666;
+}
+
+.get-invite-link {
+    padding: .1em 0;
+    width: 13em;
+    color: #fff;
+    background-color: #524b4a;
+    text-align: center;
+}
+
+.icon-m-s-help {
+    margin-right: 3px;
+    width: 14px;
+    height: 14px;
+    background-position: 0 -612px;
+}
+/*----------end: m-s-reward----------*/
+
+
+
+/*----------start: m-s-experience----------*/
+.m-s-experience {
+    border: 1px solid #e6e6e6;
+    padding: 30px 0 30px 31px;
+    color: #666;
+}
+
+.m-s-experience li {
+    float: left;
+    overflow: hidden;
+    margin-right: 31px;
+    width: 210px;
+}
+
+.m-s-e-photo {
+    display: block;
+    width: 210px;
+    height: 210px;
+}
+
+.m-s-e-deatil {
+    display: block;
+    margin: 0 .5em;
+}
+
+.m-s-e-name {
+    font-weight: bold;
+}
+
+.m-s-e-name,
+.m-s-e-job {
+    display: block;
+    line-height: 2;
+}
+
+.m-s-e-join-time {
+    clear: both;
+    display: block;
+}
+
+.m-s-icon-earn {
+    margin-right: 5px;
+    width: 39px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    overflow: hidden;
+    background-position: 0 -592px;
+}
+
+.m-s-e-earn {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.m-s-e-share {
+    position: relative;
+    border: 1px solid #e6e6e6;
+    background-color: #f1edec;
+    padding: .7em;
+    min-height: 11em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.m-s-icon-left-arrow {
+    position: absolute;
+    right: 5px;
+    _right: 6px;
+    top: -15px;
+    _top: -14px;
+    border: 7px solid transparent;
+    border-color: #fff #fff #e6e6e6 #fff;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    width: 0;
+}
+/*----------end: m-s-experience----------*/
+
+
+
+/*----------start: m-s-help----------*/
+.m-s-help {
+    color: #666;
+}
+
+.m-s-help dt {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.m-s-help dd {
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+/*----------end: m-s-help----------*/
+
+
+
+/*----------start: now-join----------*/
+.now-join {
+    margin-top: 30px;
+}
+
+.now-join h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    font-weight: normal;
+}
+
+.n-j-reg {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ec6600;
+    width: 360px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff7f00;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0 0 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.n-j-reg:hover {
+    text-decoration: none;
+    background-color: #eb7601;
+}
+/*----------end: now-join----------*/

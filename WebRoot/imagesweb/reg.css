@@ -1,0 +1,330 @@
+body {
+    background: #f7f7f7;
+}
+
+.global{
+    width:960px;
+    margin: 0 auto;
+}
+.logo {
+    width: 100%;
+    height: 89px;
+}
+.logo a{
+    float: left;
+}
+.head{
+    height: 41px;
+    background: url("head-bg.gif") no-repeat;
+}
+.main {
+    width: 958px;
+    background: #fff;
+    border:1px #e0e0e0 solid;
+    border-top: none;
+}
+
+.reg_ad {
+    width: 263px;
+    height: 556px;
+    background: url("r_bg.gif") no-repeat;
+    float: right;
+
+}
+
+span.txt_name {
+    width: 150px;
+    text-align: right;
+    float: left;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    padding-right: 10px;
+}
+
+/***********--bottom--**********/
+.bottom {
+
+    color: #666;
+}
+
+.bottom_main {
+    padding-left: 15px;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    color: #666;
+}
+.bottom_main em{
+    float: right;
+    margin-right: 40px;
+}
+.bottom_main a {
+    float: left;
+    color: #666;
+    height: 14px;
+    line-height: 14px;
+    border-right: 1px #666 solid;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+.bottom_main .last{
+    border-right: none;
+}
+.bottom_main a:hover {
+    color: #333;
+}
+
+.yanzheng {
+    width: 200px;
+    float: left;
+}
+
+span.join_ok {
+    padding-left: 160px;
+    display: inline-block;
+    margin-top: 23px;
+    _margin-top: 0px;
+}
+.regcheck{float: left;margin-top: 13px;margin-right: 5px;*margin-top: 8px;}
+span.join_ok a,
+span.join_ok a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/***********--注册页面新样式--Start**********/
+.register-box {
+    width: 695px;
+    float: left;
+    margin-top: 30px;
+    color: #333;
+}
+
+.r-line {
+    padding: 8px 0 4px;
+    line-height: 40px;
+    height: 42px;
+    /*overflow: hidden;*/
+    float: left;
+    width: 670px;
+    text-align: left;
+}
+
+.r-line a {
+    text-decoration: none;
+}
+
+.r-line b {
+    color: #333;
+}
+
+.r-label {
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 10px;
+    text-align: right;
+    width: 150px;
+    color: #333;
+}
+
+.r-input {
+    float: left;
+    height: 42px;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.r-input-txt {
+    margin-right: 10px;
+    padding: 0 5px;
+    width: 298px;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #fafafa;
+    border: 1px solid #d7d7d7;
+    color: #333;
+    font-weight: bold;
+}
+
+.r-alertarrow {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    display: inline-block;
+    width: 44px;
+    height: 40px;
+    background: url("no.gif") no-repeat;
+}
+.r-code .r-alertarrow {
+    position: absolute;
+    right: 171px;
+    display: inline-block;
+    width: 44px;
+    height: 40px;
+    background: url("no.gif") no-repeat;
+}
+.r-pic .r-alertarrow{
+    position: absolute;
+    right: 172px;
+    display: inline-block;
+    width: 44px;
+    height: 40px;
+    background: url("no.gif") no-repeat;
+}
+.r-passarrow {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    background: url("yes.gif") no-repeat;
+}
+.r-code .r-passarrow {
+    position: absolute;
+    right: 171px;
+    top: 0;
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    background: url("yes.gif") no-repeat;
+}
+.r-pic .r-passarrow {
+    position: absolute;
+    right: 172px;
+    top: 0;
+    display: inline-block;
+    width: 45px;
+    height: 40px;
+    background: url("yes.gif") no-repeat;
+}
+.r-code .r-alertarrow,
+.r-code .r-passarrow,
+.r-pic .r-alertarrow,
+.r-pic .r-passarrow,
+.r-alertarrow,
+.r-passarrow{
+    display: none;
+}
+.r-input-yanzheng {
+    margin-right: 10px;
+    padding: 0 5px;
+    width: 136px;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #fafafa;
+    border: 1px solid #d7d7d7;
+    color: #333;
+    float: left;
+}
+
+.r-get-captcha {
+    background: url("code.gif") no-repeat;
+    cursor: pointer;
+    color: #333;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-right: 11px;
+    width: 150px;
+
+    text-align: center;
+}
+.get-codeing{
+    color: #808080;
+}
+.auto-codeing{
+    background:url("green.gif") no-repeat;
+    color: #fff;
+}
+.r-input-focus {
+    border: 1px solid #cc0000;
+}
+
+.r-get-captcha-hover,
+.r-get-captcha:hover {
+    text-decoration: none;
+    color: #333;
+
+}
+
+.r-submit {
+    height: 50px;
+    width: 186px;
+    background: url("regbutton.gif") no-repeat;
+    /* margin-top: 20px; */
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+
+}
+
+
+
+.r-msg {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.r-m-tips {
+    color: #808080;
+}
+
+.r-m-txtips {
+    line-height: 20px;
+    float: left;
+    color: #808080;
+}
+
+.r-m-null,
+.r-m-alert {
+    /*padding-left: 15px;*/
+    color: #cc0000;
+}
+
+.r-m-pass {
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin-top: 13px;
+    /*background: url("/static/images/v12/yes.gif") no-repeat;*/
+
+}
+
+.r-m-alert,
+.r-m-tips,
+.r-m-null,
+.r-m-txtips,
+.r-m-pass {
+    display: none;
+}
+
+.r-captcha {
+    margin-right: 5px;
+    width: 120px;
+    height: 38px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.r-refresh{
+    width: 24px;
+    height: 40px;
+    margin-right: 10px;
+    background: url("refresh.gif") no-repeat;
+    cursor: pointer;
+}
+
+/***********--注册页面新样式--End**********/
